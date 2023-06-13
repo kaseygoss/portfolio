@@ -1,7 +1,0 @@
-CREATE TABLE favoritebooks (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
-
-INSERT INTO favoritebooks VALUES (1, "tuckeverlasting", 3);
-INSERT INTO favoritebooks VALUES (2, "refugee", 1);
-INSERT INTO favoritebooks VALUES (3, "brian's winter", 2)
-
-Select * FROM favoritebooks ORDER BY rating;
